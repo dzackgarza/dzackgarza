@@ -7,7 +7,7 @@
 
 - 💻 My main website: [https://dzackgarza.com](https://dzackgarza.com/)
 
-- 🔭 I’m currently working on **compactifications of moduli of K3 surfaces**.
+- 🔭 I’m currently working on **compactifications of moduli spaces of K3 and Enriques surfaces**.
 		
 - 💬 Ask me about anything! [https://curiouscat.live/dzackgarza](https://curiouscat.live/dzackgarza)
 	
