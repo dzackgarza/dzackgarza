@@ -28,19 +28,7 @@
 
 ## Projects
 
-Work here that other people can use.
-
-### Mathematics and study materials
-
-| Repository | What it is |
-| --- | --- |
-| [math-flashcards](https://github.com/dzackgarza/math-flashcards) | Anki decks covering graduate mathematics, built from source and self-contained. |
-| [make-me-a-qual](https://github.com/dzackgarza/make-me-a-qual) | Practice qualifying exam generator, adapted from Jonathan Love's tool for the UGA exams. |
-| [qual-review-and-solutions](https://github.com/dzackgarza/qual-review-and-solutions) | Review materials and worked solutions for UGA qualifying exams. |
-| [new-qual-site](https://github.com/dzackgarza/new-qual-site) | Compiles a git-tracked corpus of Markdown problem cards into a queryable catalog and a rendered site. |
-| [Introduction-to-Latex](https://github.com/dzackgarza/Introduction-to-Latex) | Short introductory book on LaTeX for mathematical writing. |
-
-### SageMath tooling
+### SageMath
 
 | Repository | What it is |
 | --- | --- |
@@ -74,6 +62,13 @@ Work here that other people can use.
 | [agent-memory](https://github.com/dzackgarza/agent-memory) | Cross-session knowledge store for coding agents. |
 | [ai-review-ci](https://github.com/dzackgarza/ai-review-ci) | Reusable quality-control gates, hooks, and CI wiring for agent-assisted repositories. |
 | [itree](https://github.com/dzackgarza/itree) | Deterministic traversal over GitHub issue trees. |
+
+### Forks that add something
+
+| Repository | What it adds |
+| --- | --- |
+| [zettlr-pandoc](https://github.com/dzackgarza/zettlr-pandoc) | Zettlr with MathJax in place of KaTeX, plus user-defined TeX macros shared between the editor and pandoc export. |
+| [jupyter-mcp-server](https://github.com/dzackgarza/jupyter-mcp-server) | Stateless HTTP/OpenAPI adapter over the Jupyter MCP tools, addressing notebooks by deterministic ID rather than session state. |
 
 <br />
 
