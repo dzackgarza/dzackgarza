@@ -30,45 +30,46 @@
 
 ### SageMath
 
-| Repository | What it is |
+Sage builds its class hierarchy at runtime, so ordinary Python tooling cannot see it. These three make it visible.
+
+| Repository | What it does for you |
 | --- | --- |
-| [sage-stubs](https://github.com/dzackgarza/sage-stubs) | PEP 561 stub-only package for the Sage category and structure interfaces. |
-| [sagemath-mypy-plugin](https://github.com/dzackgarza/sagemath-mypy-plugin) | mypy plugin that makes Sage's dynamic category framework type-checkable. |
-| [sage-lsp-server](https://github.com/dzackgarza/sage-lsp-server) | Language server for Sage source files. |
+| [sagemath-mypy-plugin](https://github.com/dzackgarza/sagemath-mypy-plugin) | Makes `@override`, `@final`, abstract-method and signature checks work on Sage category classes, whose MRO exists only at runtime. Without it every `@override` on a provider method is reported as an error. |
+| [sage-stubs](https://github.com/dzackgarza/sage-stubs) | Type stubs for the Sage 10.7 category and structure surface, so mypy can analyze code importing `sage.categories.*`, `sage.structure.*`, and `sage.misc.*`. Discovered automatically; no `mypy_path` setup. |
+| [sage-lsp-server](https://github.com/dzackgarza/sage-lsp-server) | Completion, hover, and signature help for `sage.all` names in JupyterLab or any LSP editor, so Sage cells stop looking like undefined identifiers. |
 
 ### Lean 4
 
-| Repository | What it is |
+| Repository | What it does for you |
 | --- | --- |
-| [lean-jupyter-kernel](https://github.com/dzackgarza/lean-jupyter-kernel) | Lean 4 as a first-class Jupyter kernel, with persistent elaboration state and structured MIME output. |
-| [lean-categories](https://github.com/dzackgarza/lean-categories) | Formalization of integral lattices and related geometric categories. |
-| [lean-reference-corpus](https://github.com/dzackgarza/lean-reference-corpus) | Searchable corpus of Lean 4 formalization repositories, for finding prior art before writing a proof. |
+| [lean-reference-corpus](https://github.com/dzackgarza/lean-reference-corpus) | Searches 36,000 Lean files at once — Mathlib, 97 formalization repos, and 739 Reservoir packages — so "this is not formalized anywhere yet" becomes a claim you can actually check before you start proving. |
+| [lean-jupyter-kernel](https://github.com/dzackgarza/lean-jupyter-kernel) | Runs Lean 4 in a notebook where a cell's output always matches the source visible above it. Editing an early cell re-runs what depends on it instead of leaving stale results from a version that is no longer on screen. |
+| [lean-categories](https://github.com/dzackgarza/lean-categories) | A shared Lean 4 baseline of categorical constructions — lattices, modules, algebra — for downstream formalizations to import instead of re-proving. |
 
 ### Writing and documents
 
-| Repository | What it is |
+| Repository | What it does for you |
 | --- | --- |
-| [pandoc-ssg](https://github.com/dzackgarza/pandoc-ssg) | Static site generator built as a small Bun/TypeScript kernel around pandoc. |
-| [pandoc-config](https://github.com/dzackgarza/pandoc-config) | Pandoc and LaTeX templates, Lua filters, and build scripts for mathematical documents. |
-| [pandoc-preview](https://github.com/dzackgarza/pandoc-preview) | Overleaf-style Markdown editor with a live pandoc preview (Tauri + Svelte). |
-| [zotero-local-write-api](https://github.com/dzackgarza/zotero-local-write-api) | Zotero add-on that exposes a local write API for attachments and item edits. |
+| [pandoc-preview](https://github.com/dzackgarza/pandoc-preview) | A local Overleaf substitute for people who already have a real pandoc setup. Markdown, LaTeX, TikZ, BibTeX, Beamer and reveal.js in one editor; every renderer and exporter is a command you configure, not a fixed menu of app features. |
+| [pandoc-ssg](https://github.com/dzackgarza/pandoc-ssg) | Publishes a Markdown site with real LaTeX math and `tikzcd`/TikZ blocks compiled to inline SVG, using your own pandoc templates, filters and macros rather than a generator's dialect of Markdown. |
+| [zotero-local-write-api](https://github.com/dzackgarza/zotero-local-write-api) | Zotero's built-in local API is read-only. This add-on adds write endpoints — items, notes, attachments, collections, tags — on the same localhost server, with no API key and no cloud round trip. |
 
 ### LLM and agent infrastructure
 
-| Repository | What it is |
+| Repository | What it does for you |
 | --- | --- |
-| [usage-limits](https://github.com/dzackgarza/usage-limits) | Uniform quota and usage reporting across LLM providers. |
-| [improved-webtools](https://github.com/dzackgarza/improved-webtools) | Web search and fetch over SearxNG, exposed as an MCP server. |
-| [agent-memory](https://github.com/dzackgarza/agent-memory) | Cross-session knowledge store for coding agents. |
-| [ai-review-ci](https://github.com/dzackgarza/ai-review-ci) | Reusable quality-control gates, hooks, and CI wiring for agent-assisted repositories. |
-| [itree](https://github.com/dzackgarza/itree) | Deterministic traversal over GitHub issue trees. |
+| [usage-limits](https://github.com/dzackgarza/usage-limits) | Shows how much quota you have left across every provider at once: Claude Code, Codex, Copilot, Cursor, Antigravity, DeepSeek, Kiro, Ollama Cloud. |
+| [improved-webtools](https://github.com/dzackgarza/improved-webtools) | Gives an agent web search and page fetching through your own SearxNG instance — no API key, no per-query billing. Works as an OpenCode plugin or as an MCP server for any client. |
+| [itree](https://github.com/dzackgarza/itree) | Keeps a repository's GitHub sub-issue tree ordered and answers one question — what is the single next work unit — while flagging cycles, orphaned issues, and work hidden outside the tree. |
+| [agent-memory](https://github.com/dzackgarza/agent-memory) | Lets an agent keep and search notes across sessions, stored as plain Markdown in a git-tracked vault you can read and edit yourself. |
+| [ai-review-ci](https://github.com/dzackgarza/ai-review-ci) | Installs the same commit, push, and CI quality gates into any repository with one command, including hooks and branch protection. Profiles for Python, Bun, Rust, Sage, and docs. |
 
 ### Forks that add something
 
-| Repository | What it adds |
+| Repository | What it adds over upstream |
 | --- | --- |
-| [zettlr-pandoc](https://github.com/dzackgarza/zettlr-pandoc) | Zettlr with MathJax in place of KaTeX, plus user-defined TeX macros shared between the editor and pandoc export. |
-| [jupyter-mcp-server](https://github.com/dzackgarza/jupyter-mcp-server) | Stateless HTTP/OpenAPI adapter over the Jupyter MCP tools, addressing notebooks by deterministic ID rather than session state. |
+| [zettlr-pandoc](https://github.com/dzackgarza/zettlr-pandoc) | Zettlr rendering math with MathJax instead of KaTeX, including mhchem, plus your own TeX macros defined once and honored both in the editor and in every pandoc export. |
+| [jupyter-mcp-server](https://github.com/dzackgarza/jupyter-mcp-server) | Drives Jupyter notebooks over ordinary HTTP with an OpenAPI schema instead of MCP. Notebooks are addressed by an ID derived from their path, so there is no session state to lose across restarts, and GPT Actions can call it directly. |
 
 <br />
 
