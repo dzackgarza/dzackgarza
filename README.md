@@ -44,7 +44,7 @@ Sage builds its class hierarchy at runtime, so ordinary Python tooling cannot se
 | --- | --- |
 | [lean-reference-corpus](https://github.com/dzackgarza/lean-reference-corpus) — **[search it](https://dzackgarza.github.io/lean-reference-corpus/)** | One query across the formal literature: Mathlib, the Fermat's Last Theorem and Carleson's theorem projects, Viazovska's sphere packing, the Polynomial Freiman–Ruzsa conjecture, condensed mathematics — and, in Rocq and Agda, Feit–Thompson and the univalent libraries. Answers "has anyone formalized this, and where", before you start proving it yourself. Open JSON API. |
 | [lean-jupyter-kernel](https://github.com/dzackgarza/lean-jupyter-kernel) | Runs Lean 4 in a notebook where a cell's output always matches the source visible above it. Editing an early cell re-runs what depends on it instead of leaving stale results from a version that is no longer on screen. |
-| [lean-categories](https://github.com/dzackgarza/lean-categories) | The arithmetic theory of quadratic and bilinear lattices in Lean 4, which Mathlib does not cover: Jordan splitting over discrete valuation rings, discriminant forms and gluing, genus and spinor-genus invariants, Hasse and Witt invariants, and the mass of a genus. 45,000 lines, 1,400 theorems, no `sorry`. |
+| [lean-categories](https://github.com/dzackgarza/lean-categories) | The arithmetic theory of quadratic and bilinear lattices in Lean 4, which Mathlib does not cover: Jordan splitting over discrete valuation rings, discriminant forms and gluing, genus and spinor-genus invariants, Hasse and Witt invariants, and the mass of a genus. |
 
 ### Writing and documents
 
