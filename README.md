@@ -42,7 +42,7 @@ Sage builds its class hierarchy at runtime, so ordinary Python tooling cannot se
 
 | Repository | What it does for you |
 | --- | --- |
-| [lean-reference-corpus](https://github.com/dzackgarza/lean-reference-corpus) | Searches 36,000 Lean files at once — Mathlib, 97 formalization repos, and 739 Reservoir packages — so "this is not formalized anywhere yet" becomes a claim you can actually check before you start proving. |
+| [lean-reference-corpus](https://github.com/dzackgarza/lean-reference-corpus) — **[search it](https://dzackgarza.github.io/lean-reference-corpus/)** | Searches 151,000 files of formal mathematics at once: Mathlib, every Lean 4 formalization project, the Lean package registry, and the large Rocq and Agda libraries. "This is not formalized anywhere yet" becomes a claim you can check before you start proving. Open JSON API, no key. |
 | [lean-jupyter-kernel](https://github.com/dzackgarza/lean-jupyter-kernel) | Runs Lean 4 in a notebook where a cell's output always matches the source visible above it. Editing an early cell re-runs what depends on it instead of leaving stale results from a version that is no longer on screen. |
 | [lean-categories](https://github.com/dzackgarza/lean-categories) | The arithmetic theory of quadratic and bilinear lattices in Lean 4, which Mathlib does not cover: Jordan splitting over discrete valuation rings, discriminant forms and gluing, genus and spinor-genus invariants, Hasse and Witt invariants, and the mass of a genus. 45,000 lines, 1,400 theorems, no `sorry`. |
 
