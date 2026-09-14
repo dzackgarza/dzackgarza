@@ -74,8 +74,8 @@ Sage builds its class hierarchy at runtime, so ordinary Python tooling cannot se
 <br />
 
 <p align="center">
-	<a href="https://github.com/dzackgarza">
-		  <img height="165em" align="center" src="https://github-readme-stats.vercel.app/api?username=dzackgarza&show_icons=true&locale=en&include_all_commits=true&count_private=true" alt="dzackgarza"/>
-		  <img height="165em" align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=dzackgarza&show_icons=true&locale=en&layout=compact&langs_count=8" alt="dzackgarza"/>
-	</a>
+  <a href="https://github.com/dzackgarza">
+    <img height="170" src="./assets/github-stats.svg" alt="GitHub statistics" />
+    <img height="170" src="./assets/top-languages.svg" alt="Top languages" />
+  </a>
 </p>
