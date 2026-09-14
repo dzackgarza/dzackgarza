@@ -1,27 +1,13 @@
-<h1 align="center"> Hi! I'm Zack 👋 </h1>
+<h1 align="center">Hi! I'm Zack 👋</h1>
 
-<h2 align="center"> Graduate student in mathematics, erstwhile software engineer/data scientist </h2> 
-<br />
+<h2 align="center">Postdoctoral researcher at NCTS in Taipei, working on compactifications of moduli spaces of complex algebraic surfaces.</h2>
 
-<center> 
-
-- 💻 My main website: [https://dzackgarza.com](https://dzackgarza.com/)
-
-- 🔭 I’m currently working on **compactifications of moduli spaces of K3 and Enriques surfaces**.
-		
-- 💬 Ask me about anything! [https://curiouscat.live/dzackgarza](https://curiouscat.live/dzackgarza)
-	
-- 📫 How to reach me: *dzackgarza@gmail.com*
-	
-</center> 
-
-<br />
-
-<p align="left">
-<a href="https://twitter.com/dzackgarza" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" alt="dzackgarza" width="35px" /></a>
-<a href="https://instagram.com/dzackgarza" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" alt="dzackgarza" width="35px" /></a>
-<a href="https://youtube.com/dzackgarza" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" alt="dzackgarza" width="35px" /></a>
-
+<p align="center">
+  <a href="https://dzackgarza.com" title="Website"><img src="./assets/contact-website.svg" width="28" alt="Website" /></a>
+  &nbsp;&nbsp;
+  <a href="mailto:dzackgarza@gmail.com" title="Email"><img src="./assets/contact-email.svg" width="28" alt="Email" /></a>
+  &nbsp;&nbsp;
+  <a href="https://twitter.com/dzackgarza" title="Twitter"><img src="./assets/contact-twitter.svg" width="28" alt="Twitter" /></a>
 </p>
 
 <br />
