@@ -12,7 +12,21 @@
 
 <br />
 
-## Projects
+## Websites
+
+Open these in a browser. Nothing to install.
+
+| Site | What you find there |
+| --- | --- |
+| [**Research book**](https://dzackgarza.github.io/research/) <a href="https://github.com/dzackgarza/research" title="GitHub"><img src="https://api.iconify.design/octicon/mark-github-16.svg?color=%238b949e" width="16" alt="GitHub" /></a> | My research notes as one book: the category theory and the lattice, form and Witt theory under the work, then the Coble lattice, its moduli spaces and period domains, reflection groups, compactifications, degenerations and stable limits, the computed results, and open problems. |
+| [**Lattice database**](https://dzackgarza.github.io/research/lattice-database/) <a href="https://github.com/dzackgarza/research/tree/main/lattice-database" title="GitHub"><img src="https://api.iconify.design/octicon/mark-github-16.svg?color=%238b949e" width="16" alt="GitHub" /></a> | A catalogue of lattices — definite, indefinite and degenerate — with one page per lattice and one table to filter, sort and export. Each record stores its computed invariants, its relations to the other records, and the sources that state it. |
+| [**Formalization corpus**](https://dzackgarza.github.io/formalization-corpus/) <a href="https://github.com/dzackgarza/formalization-corpus" title="GitHub"><img src="https://api.iconify.design/octicon/mark-github-16.svg?color=%238b949e" width="16" alt="GitHub" /></a> | One search across the formal literature: Mathlib, the Fermat's Last Theorem and Carleson's theorem projects, Viazovska's sphere packing, the Polynomial Freiman–Ruzsa conjecture, condensed mathematics — and, in Rocq and Agda, Feit–Thompson and the univalent libraries. Answers "has anyone formalized this, and where". Open JSON API. |
+| [**Graduate mathematics in Lean**](https://dzackgarza.github.io/lean-categories/) <a href="https://github.com/dzackgarza/lean-categories" title="GitHub"><img src="https://api.iconify.design/octicon/mark-github-16.svg?color=%238b949e" width="16" alt="GitHub" /></a> | The standard graduate texts — Dummit and Foote, Riehl, Atiyah–Macdonald, Weibel, Hartshorne, Matsumura and the rest — read definition by definition and theorem by theorem, with what Lean already has and what is still unformalized. |
+| [**Qual Corpus**](https://dzackgarza.github.io/new-qual-site/) <a href="https://github.com/dzackgarza/new-qual-site" title="GitHub"><img src="https://api.iconify.design/octicon/mark-github-16.svg?color=%238b949e" width="16" alt="GitHub" /></a> | Graduate qualifying-exam problems to browse, filter, sample and print: algebra, algebraic geometry, real and complex analysis, topology, and more, with where each problem appeared and its definitions, hints and related problems. |
+
+Older: [notes on the talks of the UCSD Algebraic Geometry Conference 2019](https://dzackgarza.github.io/UCSD-Algebraic-Geometry-Conference-2019/) · [undergraduate lab reports](https://dzackgarza.github.io/Lab-Reports/).
+
+## Repositories
 
 ### SageMath
 
@@ -28,9 +42,9 @@ Sage builds its class hierarchy at runtime, so ordinary Python tooling cannot se
 
 | Repository | What it does for you |
 | --- | --- |
-| formalization-corpus <a href="https://github.com/dzackgarza/formalization-corpus" title="GitHub"><img src="https://api.iconify.design/octicon/mark-github-16.svg?color=%238b949e" width="16" alt="GitHub" /></a> · Search it <a href="https://dzackgarza.github.io/formalization-corpus/" title="Search it"><img src="https://api.iconify.design/octicon/globe-16.svg?color=%238b949e" width="16" alt="Search it" /></a> | One query across the formal literature: Mathlib, the Fermat's Last Theorem and Carleson's theorem projects, Viazovska's sphere packing, the Polynomial Freiman–Ruzsa conjecture, condensed mathematics — and, in Rocq and Agda, Feit–Thompson and the univalent libraries. Answers "has anyone formalized this, and where", before you start proving it yourself. Open JSON API. |
+| formalization-corpus <a href="https://github.com/dzackgarza/formalization-corpus" title="GitHub"><img src="https://api.iconify.design/octicon/mark-github-16.svg?color=%238b949e" width="16" alt="GitHub" /></a> | Checks out and indexes Mathlib, the registered Lean formalization projects, the Reservoir packages and the Rocq and Agda sources as one tree, and builds the search site above from it. |
 | lean-jupyter-kernel <a href="https://github.com/dzackgarza/lean-jupyter-kernel" title="GitHub"><img src="https://api.iconify.design/octicon/mark-github-16.svg?color=%238b949e" width="16" alt="GitHub" /></a> | Runs Lean 4 in a notebook where a cell's output always matches the source visible above it. Editing an early cell re-runs what depends on it instead of leaving stale results from a version that is no longer on screen. |
-| lean-categories <a href="https://github.com/dzackgarza/lean-categories" title="GitHub"><img src="https://api.iconify.design/octicon/mark-github-16.svg?color=%238b949e" width="16" alt="GitHub" /></a> · Browse corpus <a href="https://dzackgarza.github.io/lean-categories/" title="Browse corpus"><img src="https://api.iconify.design/octicon/globe-16.svg?color=%238b949e" width="16" alt="Browse corpus" /></a> | The arithmetic theory of quadratic and bilinear lattices in Lean 4, which Mathlib does not cover: Jordan splitting over discrete valuation rings, discriminant forms and gluing, genus and spinor-genus invariants, Hasse and Witt invariants, and the mass of a genus. Nothing is admitted: no `sorry`. The site reads the other way round: it takes the standard graduate texts — Dummit and Foote, Riehl, Atiyah–Macdonald, Weibel, Hartshorne, Matsumura and the rest — and says, definition by definition and theorem by theorem, which ones Lean already has and which are still unformalized. |
+| lean-categories <a href="https://github.com/dzackgarza/lean-categories" title="GitHub"><img src="https://api.iconify.design/octicon/mark-github-16.svg?color=%238b949e" width="16" alt="GitHub" /></a> | The arithmetic theory of quadratic and bilinear lattices in Lean 4, which Mathlib does not cover: Jordan splitting over discrete valuation rings, discriminant forms and gluing, genus and spinor-genus invariants, Hasse and Witt invariants, and the mass of a genus. Nothing is admitted: no `sorry`. |
 
 ### Writing and documents
 
